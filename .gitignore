@@ -1,1 +1,12 @@
-.pc/
+.*
+bench/example.*
+coverage
+doc
+Gemfile.lock
+old-stuff
+pkg
+spec/examples.txt
+spec/reports
+test/executable/source.rb.html
+test/executable/source.rb.json
+test/scanners

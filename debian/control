@@ -3,8 +3,7 @@ Section: ruby
 Priority: optional
 Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
 Uploaders: Deepak Tripathi <apenguinlinux@gmail.com>,
-           Youhei SASAKI <uwabami@gfd-dennou.org>,
-           HIGUCHI Daisuke (VDR dai) <dai@debian.org>
+           Youhei SASAKI <uwabami@gfd-dennou.org>
 Build-Depends: gem2deb,
                ruby-bundler,
                ruby-shoulda-context,
@@ -15,7 +14,7 @@ Build-Depends: gem2deb,
                ruby-rspec-mocks,
                ruby-simplecov,
                debhelper-compat (= 13)
-Standards-Version: 4.5.1
+Standards-Version: 4.6.1
 Vcs-Git: https://salsa.debian.org/ruby-team/coderay.git
 Vcs-Browser: https://salsa.debian.org/ruby-team/coderay
 Homepage: http://coderay.rubychan.de/
@@ -24,6 +23,7 @@ Rules-Requires-Root: no
 
 Package: ruby-coderay
 Architecture: all
+Multi-Arch: foreign
 Depends: ruby:any,
          ${misc:Depends},
          ${shlibs:Depends}
