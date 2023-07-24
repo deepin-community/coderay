@@ -9,6 +9,15 @@ License: Expat
 Files: debian/*
 Copyright:
  2021 Vivek K J <vivekkj@protonmail.com>
+ 2020,2022 Lucas Kanashiro <kanashiro@ubuntu.com>
+ 2019 Utkarsh Gupta <guptautkarsh2102@gmail.com>
+ 2016-2018,2020-2022 HIGUCHI Daisuke (VDR dai) <dai@debian.org>
+ 2016 Christian Hofstaedtler <zeha@debian.org>
+ 2015 Sebastien Badia <seb@sebian.fr>
+ 2013,2026,2020 Cédric Boutillier <boutil@debian.org>
+ 2012-2013,2021 Youhei SASAKI <uwabami@gfd-dennou.org>
+ 2012 Paul van Tilburg <paulvt@debian.org>
+ 2011-2012,2014,2017 Antonio Terceiro <terceiro@debian.org>
  2011 Jérémy Lal <kapouer@melix.org>
  2010 Deepak Tripathi <apenguinlinux@gmail.com>
  2009 Opscode, Inc <legal@opscode.com>
